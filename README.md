@@ -9,6 +9,25 @@ There is a _potential_ to also use this software to list what song is currently 
 
 ---
 
+Parts of this project:
+
+- Outside VRChat
+  - interface between music app / service and OSC
+    - Music app interface
+      - Cider: RPC
+      - Spotify: their API stuff
+      - other services? (scope creep warning)
+    - OSC interface
+      - TouchOSC integration templates(?)
+      - Direct OSC messaging integration
+      - OSC to VRCFury messaging integration option
+- Inside VRChat
+  - Prefab buttons and such for music controls, info text, etc.
+  - Animator functionality to move object in-game by trigger
+  - Easy installation scripts (vrcfury?) if desired
+
+---
+
 Documentation to refer to:
 
 - Cider interfacing
@@ -30,5 +49,5 @@ Documentation to refer to:
 
 WARNING: scope creep be beyond this point! Ye be warned!
 
-- Music search with [whatever that app was], then when it finds the song, show info on panel in-game... and bring up search on spotify / cider
+- Music search with [VXMusic](https://github.com/Soapwood/VXMusic), then when it finds the song, show info on panel in-game... and bring up search on spotify / cider
 - 
