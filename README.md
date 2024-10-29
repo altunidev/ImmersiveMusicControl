@@ -16,4 +16,19 @@ Documentation to refer to:
   - What even is RPC? | https://en.wikipedia.org/wiki/Remote_procedure_call
   - RPC to OSC? | https://github.com/robbielyman/zosc
 - Spotify interfacing
+  - https://developer.spotify.com/documentation/web-api
   - https://developer.spotify.com/documentation/web-playback-sdk/tutorials/getting-started
+  - https://engineering.atspotify.com/2022/04/spotifys-player-api/
+  - examples:
+    - https://github.com/JohnnyCrazy/SpotifyAPI-NET
+    - https://github.com/RoguePlanetoid/Spotify-Uwp-Showcase
+    - https://github.com/spotipy-dev/spotipy
+    - https://spotify.github.io/
+    - https://github.com/spotlightify/spotlightify
+
+---
+
+WARNING: scope creep be beyond this point! Ye be warned!
+
+- Music search with [whatever that app was], then when it finds the song, show info on panel in-game... and bring up search on spotify / cider
+- 
